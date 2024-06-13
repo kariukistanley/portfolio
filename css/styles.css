@@ -1,0 +1,121 @@
+/*General styles*/
+body{
+	font-family:'Arial',sans-serif ;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f4f4f4;
+}
+/*Navigation bar*/
+header{
+	background-color: #333;
+	color:white ;
+	padding: 10px 0;
+
+}
+nav ul{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+	margin-left: 10px;
+
+}
+nav ul li a{
+	color:white ;
+	text-decoration: none;
+	padding: 5px 10px;
+
+}
+nav ul li a:hover,
+nav ul li a.active{
+	background-color: #555;
+	border-radius: 5px;
+
+}
+/*main content styles*/
+main{
+	padding: 20px;
+	background-color: white;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+}
+/*hero section styles*/
+.hero{
+	text-align: center;
+	padding: 50px 20px;
+	background: linear-gradient(to right,#ff7e5f,#feb47b);
+
+}
+/*about.section styles*/
+.about{
+	text-align: center;
+
+}
+.about img{
+	max-width: 200px;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+/*portfolio section styles*/
+.portfolio{
+	text-align: center;
+
+}
+.gallery{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.gallery-item{
+	width: 30%;
+	margin-bottom: 20px;
+
+}
+.gallery-item img{
+	width: 100%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+/*Contact Form Styles*/
+form div{
+	margin-bottom:10px ;
+
+}
+form label{
+	display:block ;
+
+}
+for input,form textarea{
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+
+}
+form button{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+}
+form button:hover{
+	background-color: #555;
+
+}
+/*Footer Styles*/
+footer{
+	text-align: center;
+	padding: 10px 0;
+	background-color: #333;
+	color: white;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
